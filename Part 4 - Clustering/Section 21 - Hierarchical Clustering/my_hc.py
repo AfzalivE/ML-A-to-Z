@@ -5,9 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-plt.style.use('fivethirtyeight')
+# plt.style.use('fivethirtyeight')
 
-print(plt.style.available)
+# print(plt.style.available)
 
 # Importing the dataset
 dataset = pd.read_csv('Mall_Customers.csv')

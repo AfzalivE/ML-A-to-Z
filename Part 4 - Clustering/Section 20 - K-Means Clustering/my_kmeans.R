@@ -15,7 +15,7 @@ plot(1:10, wcss, type = 'b', main = paste('Clusters of clients', xlab = 'Number 
 set.seed(29)
 kmeans = kmeans(X, 5, iter.max = 300, nstart = 10)
 
-# Visualizing the clusers
+# Visualizing the clusters
 library(cluster)
 clusplot(X,
          kmeans$cluster,
